@@ -13,6 +13,9 @@ import { handleServerError } from '@/lib/handle-server-error'
 import { DirectionProvider } from './context/direction-provider'
 import { FontProvider } from './context/font-provider'
 import { ThemeProvider } from './context/theme-provider'
+import { MuiThemeWrapper } from './context/mui-theme-provider'
+import { Provider } from 'react-redux'
+import { store } from './store'
 // Generated Routes
 import { routeTree } from './routeTree.gen'
 // Styles
@@ -93,15 +96,20 @@ if (!rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement)
   root.render(
     <StrictMode>
-      <QueryClientProvider client={queryClient}>
-        <ThemeProvider>
-          <FontProvider>
-            <DirectionProvider>
-              <RouterProvider router={router} />
-            </DirectionProvider>
-          </FontProvider>
-        </ThemeProvider>
-      </QueryClientProvider>
+      <Provider store={store}>
+        <QueryClientProvider client={queryClient}>
+          <ThemeProvider>
+            <MuiThemeWrapper>
+              <FontProvider>
+                <DirectionProvider>
+                  <RouterProvider router={router} />
+                </DirectionProvider>
+              </FontProvider>
+            </MuiThemeWrapper>
+          </ThemeProvider>
+
+        </QueryClientProvider>
+      </Provider>
     </StrictMode>
   )
 }
