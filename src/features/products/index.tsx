@@ -39,7 +39,7 @@ export function Products() {
           </div>
         </div>
 
-        {loading && <p>Loading tasks...</p>}
+        {loading && <p>Loading products...</p>}
         {error && <p className="text-red-500">Error: {error}</p>}
         {!loading && !error && <ProductsTable data={products} />}
       </Main>

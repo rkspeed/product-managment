@@ -108,5 +108,189 @@
       "description": "HD webcam with built-in microphone",
       "supplier": "Logitech"
     }
+  ],
+
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customerName": "John Doe",
+      "product": "Mechanical Keyboard",
+      "quantity": 2,
+      "total": 179.98,
+      "status": "Pending",
+      "createdAt": "2025-11-20T12:00:00Z"
+    },
+    {
+      "id": "ORD-1002",
+      "customerName": "Sarah Miller",
+      "product": "Wireless Mouse",
+      "quantity": 1,
+      "total": 39.99,
+      "status": "Completed",
+      "createdAt": "2025-11-21T09:15:00Z"
+    },
+    {
+      "id": "ORD-1003",
+      "customerName": "Aiden Brown",
+      "product": "Gaming Headset",
+      "quantity": 1,
+      "total": 89.5,
+      "status": "Pending",
+      "createdAt": "2025-11-22T14:45:00Z"
+    },
+    {
+      "id": "ORD-1004",
+      "customerName": "Emily Johnson",
+      "product": "USB-C Docking Station",
+      "quantity": 1,
+      "total": 129.0,
+      "status": "Cancelled",
+      "createdAt": "2025-11-23T11:20:00Z"
+    },
+    {
+      "id": "ORD-1005",
+      "customerName": "Michael Smith",
+      "product": "Portable SSD 1TB",
+      "quantity": 2,
+      "total": 219.98,
+      "status": "Completed",
+      "createdAt": "2025-11-24T08:30:00Z"
+    },
+    {
+      "id": "ORD-1006",
+      "customerName": "Olivia Davis",
+      "product": "4K Monitor 27 inch",
+      "quantity": 1,
+      "total": 349.99,
+      "status": "Pending",
+      "createdAt": "2025-11-24T15:55:00Z"
+    },
+    {
+      "id": "ORD-1007",
+      "customerName": "James Wilson",
+      "product": "Bluetooth Speakers",
+      "quantity": 1,
+      "total": 59.99,
+      "status": "Completed",
+      "createdAt": "2025-11-25T10:00:00Z"
+    },
+    {
+      "id": "ORD-1008",
+      "customerName": "Sophia Martinez",
+      "product": "Laptop Stand",
+      "quantity": 3,
+      "total": 75.0,
+      "status": "Pending",
+      "createdAt": "2025-11-25T17:10:00Z"
+    },
+    {
+      "id": "ORD-1009",
+      "customerName": "William Anderson",
+      "product": "1080p Webcam",
+      "quantity": 1,
+      "total": 49.99,
+      "status": "Cancelled",
+      "createdAt": "2025-11-26T13:40:00Z"
+    },
+    {
+      "id": "ORD-1010",
+      "customerName": "Emma Thomas",
+      "product": "Ergonomic Chair",
+      "quantity": 1,
+      "total": 199.99,
+      "status": "Completed",
+      "createdAt": "2025-11-26T20:25:00Z"
+    },
+    {
+      "id": "ORD-1011",
+      "customerName": "Liam White",
+      "product": "Mechanical Keyboard",
+      "quantity": 1,
+      "total": 89.99,
+      "status": "Pending",
+      "createdAt": "2025-11-27T09:05:00Z"
+    },
+    {
+      "id": "ORD-1012",
+      "customerName": "Isabella Harris",
+      "product": "Noise Cancelling Earbuds",
+      "quantity": 2,
+      "total": 139.98,
+      "status": "Completed",
+      "createdAt": "2025-11-27T14:30:00Z"
+    },
+    {
+      "id": "ORD-1013",
+      "customerName": "Henry Clark",
+      "product": "Smartwatch Series 8",
+      "quantity": 1,
+      "total": 299.99,
+      "status": "Pending",
+      "createdAt": "2025-11-28T12:45:00Z"
+    },
+    {
+      "id": "ORD-1014",
+      "customerName": "Mia Lewis",
+      "product": "Wireless Charger",
+      "quantity": 2,
+      "total": 49.98,
+      "status": "Cancelled",
+      "createdAt": "2025-11-28T16:00:00Z"
+    },
+    {
+      "id": "ORD-1015",
+      "customerName": "Jack Walker",
+      "product": "Graphics Tablet",
+      "quantity": 1,
+      "total": 159.99,
+      "status": "Completed",
+      "createdAt": "2025-11-29T10:10:00Z"
+    },
+    {
+      "id": "ORD-1016",
+      "customerName": "Charlotte Hall",
+      "product": "Gaming Mousepad XL",
+      "quantity": 2,
+      "total": 39.98,
+      "status": "Pending",
+      "createdAt": "2025-11-29T18:30:00Z"
+    },
+    {
+      "id": "ORD-1017",
+      "customerName": "Lucas Young",
+      "product": "Smart LED Lamp",
+      "quantity": 1,
+      "total": 29.99,
+      "status": "Completed",
+      "createdAt": "2025-11-30T07:55:00Z"
+    },
+    {
+      "id": "ORD-1018",
+      "customerName": "Amelia King",
+      "product": "Portable Projector",
+      "quantity": 1,
+      "total": 219.99,
+      "status": "Pending",
+      "createdAt": "2025-11-30T12:15:00Z"
+    },
+    {
+      "id": "ORD-1019",
+      "customerName": "Noah Scott",
+      "product": "USB-C Cable Pack",
+      "quantity": 3,
+      "total": 24.99,
+      "status": "Completed",
+      "createdAt": "2025-12-01T11:00:00Z"
+    },
+    {
+      "id": "ORD-1020",
+      "customerName": "Harper Green",
+      "product": "Laptop Cooling Pad",
+      "quantity": 1,
+      "total": 34.99,
+      "status": "Pending",
+      "createdAt": "2025-12-01T19:20:00Z"
+    }
   ]
+
 }
