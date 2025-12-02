@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "PROD-1002",
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 45,
+      "status": "active",
+      "createdAt": "2025-11-05T12:00:00Z",
+      "updatedAt": "2025-11-07T12:00:00Z",
+      "description": "RGB backlit mechanical keyboard with blue switches",
+      "supplier": "Corsair"
+    },
+    {
+      "id": "PROD-1003",
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 199.99,
+      "stock": 20,
+      "status": "inactive",
+      "createdAt": "2025-11-10T12:00:00Z",
+      "updatedAt": "2025-11-11T12:00:00Z",
+      "description": "Ergonomic office chair with lumbar support",
+      "supplier": "Herman Miller"
+    },
+    {
+      "id": "PROD-1005",
+      "name": "Noise Cancelling Headphones",
+      "category": "Electronics",
+      "price": 149.99,
+      "stock": 30,
+      "status": "active",
+      "createdAt": "2025-11-15T12:00:00Z",
+      "updatedAt": "2025-11-16T12:00:00Z",
+      "description": "Over-ear noise cancelling headphones with Bluetooth",
+      "supplier": "Sony"
+    },
+    {
+      "id": "PROD-1008",
+      "name": "Standing Desk",
+      "category": "Furniture",
+      "price": 499.99,
+      "stock": 15,
+      "status": "inactive",
+      "createdAt": "2025-11-19T12:00:00Z",
+      "updatedAt": "2025-11-20T12:00:00Z",
+      "description": "Height adjustable standing desk with cable management",
+      "supplier": "FlexiSpot"
+    },
+    {
+      "id": "PROD-1009",
+      "name": "4K Monitor",
+      "category": "Electronics",
+      "price": 299.99,
+      "stock": 25,
+      "status": "active",
+      "createdAt": "2025-11-20T12:00:00Z",
+      "updatedAt": "2025-11-21T12:00:00Z",
+      "description": "27-inch 4K UHD monitor with HDR support",
+      "supplier": "Dell"
+    },
+    {
+      "id": "PROD-1010",
+      "name": "Smart Speaker",
+      "category": "Electronics",
+      "price": 129.99,
+      "stock": 40,
+      "status": "active",
+      "createdAt": "2025-11-21T12:00:00Z",
+      "updatedAt": "2025-11-22T12:00:00Z",
+      "description": "Voice-controlled smart speaker with WiFi and Bluetooth",
+      "supplier": "Amazon"
+    },
+    {
+      "id": "PROD-1011",
+      "name": "Desk Lamp",
+      "category": "Furniture",
+      "price": 49.99,
+      "stock": 60,
+      "status": "active",
+      "createdAt": "2025-11-22T12:00:00Z",
+      "updatedAt": "2025-11-23T12:00:00Z",
+      "description": "LED desk lamp with adjustable brightness",
+      "supplier": "Philips"
+    },
+    {
+      "id": "PROD-1012",
+      "name": "External Hard Drive",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 35,
+      "status": "active",
+      "createdAt": "2025-11-23T12:00:00Z",
+      "updatedAt": "2025-11-24T12:00:00Z",
+      "description": "2TB portable external hard drive USB 3.0",
+      "supplier": "Seagate"
+    },
+    {
+      "id": "PROD-1013",
+      "name": "Webcam",
+      "category": "Electronics",
+      "price": 69.99,
+      "stock": 50,
+      "status": "active",
+      "createdAt": "2025-11-24T12:00:00Z",
+      "updatedAt": "2025-11-25T12:00:00Z",
+      "description": "HD webcam with built-in microphone",
+      "supplier": "Logitech"
+    }
+  ]
+}
