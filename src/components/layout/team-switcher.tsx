@@ -3,13 +3,12 @@ import { ChevronsUpDown } from 'lucide-react'
 import {
   DropdownMenu,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+} from './../../components/ui/dropdown-menu'
 import {
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem,
-  useSidebar,
-} from '@/components/ui/sidebar'
+  SidebarMenuItem
+} from './../../components/ui/sidebar'
 
 type TeamSwitcherProps = {
   teams: {
