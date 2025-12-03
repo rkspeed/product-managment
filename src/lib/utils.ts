@@ -9,24 +9,11 @@ export function sleep(ms: number = 1000) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-/**
- * Generates page numbers for pagination with ellipsis
- * @param currentPage - Current page number (1-based)
- * @param totalPages - Total number of pages
- * @returns Array of page numbers and ellipsis strings
- *
- * Examples:
- * - Small dataset (≤5 pages): [1, 2, 3, 4, 5]
- * - Near beginning: [1, 2, 3, 4, '...', 10]
- * - In middle: [1, '...', 4, 5, 6, '...', 10]
- * - Near end: [1, '...', 7, 8, 9, 10]
- */
 export function getPageNumbers(currentPage: number, totalPages: number) {
-  const maxVisiblePages = 5 // Maximum number of page buttons to show
+  const maxVisiblePages = 5 
   const rangeWithDots = []
 
   if (totalPages <= maxVisiblePages) {
-    // If total pages is 5 or less, show all pages
     for (let i = 1; i <= totalPages; i++) {
       rangeWithDots.push(i)
     }

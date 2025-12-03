@@ -1,7 +1,7 @@
 import { Link } from '@tanstack/react-router'
-import useDialogState from '@/hooks/use-dialog-state'
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
-import { Button } from '@/components/ui/button'
+import useDialogState from './../hooks/use-dialog-state'
+import { Avatar, AvatarFallback, AvatarImage } from './../components/ui/avatar'
+import { Button } from './../components/ui/button'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,8 +11,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
-import { SignOutDialog } from '@/components/sign-out-dialog'
+} from './../components/ui/dropdown-menu'
+import { SignOutDialog } from './../components/sign-out-dialog'
 
 export function ProfileDropdown() {
   const [open, setOpen] = useDialogState()
@@ -40,19 +40,19 @@ export function ProfileDropdown() {
           <DropdownMenuSeparator />
           <DropdownMenuGroup>
             <DropdownMenuItem asChild>
-              <Link to='/settings'>
+              <Link to="/">
                 Profile
                 <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link to='/settings'>
+              <Link to="/">
                 Billing
                 <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
-              <Link to='/settings'>
+              <Link to="/">
                 Settings
                 <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
               </Link>

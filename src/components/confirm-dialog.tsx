@@ -1,4 +1,4 @@
-import { cn } from '@/lib/utils'
+import { cn } from './../lib/utils'
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -7,8 +7,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@/components/ui/alert-dialog'
-import { Button } from '@/components/ui/button'
+} from './../components/ui/alert-dialog'
+import { Button } from './../components/ui/button'
 
 type ConfirmDialogProps = {
   open: boolean
