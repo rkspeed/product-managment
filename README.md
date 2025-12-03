@@ -17,6 +17,9 @@ This project includes a clean, responsive dashboard UI and a mock API server for
 <img width="1890" height="950" alt="image" src="https://github.com/user-attachments/assets/47418514-32a5-48d1-903e-0e2af5073239" />
 <img width="1580" height="897" alt="image" src="https://github.com/user-attachments/assets/99291690-3dfd-470a-95b9-09f470428459" />
 <img width="1597" height="872" alt="image" src="https://github.com/user-attachments/assets/94c2fdda-85f2-4fd6-a28d-b630c7c79297" />
+<img width="700" height="822" alt="image" src="https://github.com/user-attachments/assets/e95251e9-38a6-4ccc-b242-d27f36b4bd58" />
+<img width="1203" height="881" alt="image" src="https://github.com/user-attachments/assets/e6e7822d-44f7-440c-a23a-732756d9c5f5" />
+
 
 Features
 
