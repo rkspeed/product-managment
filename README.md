@@ -1,73 +1,51 @@
-# React + TypeScript + Vite
+React + TypeScript + Vite Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern dashboard application built using:
 
-Currently, two official plugins are available:
+- React
+- TypeScript
+- Vite
+- Material UI (MUI)
+- Mock API (JSON Server)
+- Redux Toolkit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project includes a clean, responsive dashboard UI and a mock API server for local development.
 
-## React Compiler
+ Dashboard Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="1912" height="953" alt="image" src="https://github.com/user-attachments/assets/ceebf9dc-ad47-4d39-95de-ad991d48dec1" />
+<img width="1890" height="950" alt="image" src="https://github.com/user-attachments/assets/47418514-32a5-48d1-903e-0e2af5073239" />
+<img width="1580" height="897" alt="image" src="https://github.com/user-attachments/assets/99291690-3dfd-470a-95b9-09f470428459" />
+<img width="1597" height="872" alt="image" src="https://github.com/user-attachments/assets/94c2fdda-85f2-4fd6-a28d-b630c7c79297" />
 
-## Expanding the ESLint configuration
+Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-  Fast Vite development environment  
+-  Material UI components  
+-  Redux Toolkit store integration  
+-  Mock API using JSON Server  
+-  Modular folder structure  
+-  TypeScript strict mode  
+-  Light/Dark theme support 
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+ Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Follow these steps to run the application locally:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Clone the repository
+      git clone https://github.com/your-username/your-repo-name.git
+      cd your-repo-name
+Install dependencies
+      npm install
+Start the mock API server
+      npm run start:mock
+This will run the JSON Server mock API at:
+      http://localhost:4000
+Start the React application
+      npm run dev
+Now visit:
+      http://localhost:5173
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Contributing
+Feel free to open issues or submit pull requests.
