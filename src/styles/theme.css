@@ -33,6 +33,13 @@
   --sidebar-border: var(--border);
   --sidebar-ring: var(--ring);
 }
+html[data-theme='light'] {
+  --app-bg-paper: var(--background);
+}
+
+html[data-theme='dark'] {
+  --app-bg-paper: var(--secondary-foreground);
+}
 
 .dark {
   --background: oklch(0.129 0.042 264.695);

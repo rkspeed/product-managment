@@ -1,0 +1,504 @@
+{
+  "products": [
+    {
+      "id": "PROD-1002",
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 45,
+      "status": "active",
+      "createdAt": "2025-11-05T12:00:00Z",
+      "updatedAt": "2025-11-07T12:00:00Z",
+      "description": "RGB backlit mechanical keyboard with blue switches",
+      "supplier": "Corsair"
+    },
+    {
+      "id": "PROD-1003",
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 199.99,
+      "stock": 20,
+      "status": "inactive",
+      "createdAt": "2025-11-10T12:00:00Z",
+      "updatedAt": "2025-11-11T12:00:00Z",
+      "description": "Ergonomic office chair with lumbar support",
+      "supplier": "Herman Miller"
+    },
+    {
+      "id": "PROD-1005",
+      "name": "Noise Cancelling Headphones",
+      "category": "Electronics",
+      "price": 149.99,
+      "stock": 30,
+      "status": "active",
+      "createdAt": "2025-11-15T12:00:00Z",
+      "updatedAt": "2025-11-16T12:00:00Z",
+      "description": "Over-ear noise cancelling headphones with Bluetooth",
+      "supplier": "Sony"
+    },
+    {
+      "id": "PROD-1008",
+      "name": "Standing Desk",
+      "category": "Furniture",
+      "price": 499.99,
+      "stock": 15,
+      "status": "inactive",
+      "createdAt": "2025-11-19T12:00:00Z",
+      "updatedAt": "2025-11-20T12:00:00Z",
+      "description": "Height adjustable standing desk with cable management",
+      "supplier": "FlexiSpot"
+    },
+    {
+      "id": "PROD-1009",
+      "name": "4K Monitor",
+      "category": "Electronics",
+      "price": 299.99,
+      "stock": 25,
+      "status": "active",
+      "createdAt": "2025-11-20T12:00:00Z",
+      "updatedAt": "2025-11-21T12:00:00Z",
+      "description": "27-inch 4K UHD monitor with HDR support",
+      "supplier": "Dell"
+    },
+    {
+      "id": "PROD-1010",
+      "name": "Smart Speaker",
+      "category": "Electronics",
+      "price": 129.99,
+      "stock": 40,
+      "status": "active",
+      "createdAt": "2025-11-21T12:00:00Z",
+      "updatedAt": "2025-11-22T12:00:00Z",
+      "description": "Voice-controlled smart speaker with WiFi and Bluetooth",
+      "supplier": "Amazon"
+    },
+    {
+      "id": "PROD-1011",
+      "name": "Desk Lamp",
+      "category": "Furniture",
+      "price": 49.99,
+      "stock": 60,
+      "status": "active",
+      "createdAt": "2025-11-22T12:00:00Z",
+      "updatedAt": "2025-11-23T12:00:00Z",
+      "description": "LED desk lamp with adjustable brightness",
+      "supplier": "Philips"
+    },
+    {
+      "id": "PROD-1012",
+      "name": "External Hard Drive",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 35,
+      "status": "active",
+      "createdAt": "2025-11-23T12:00:00Z",
+      "updatedAt": "2025-11-24T12:00:00Z",
+      "description": "2TB portable external hard drive USB 3.0",
+      "supplier": "Seagate"
+    },
+    {
+      "id": "PROD-1013",
+      "name": "Webcam",
+      "category": "Electronics",
+      "price": 69.99,
+      "stock": 50,
+      "status": "active",
+      "createdAt": "2025-11-24T12:00:00Z",
+      "updatedAt": "2025-11-25T12:00:00Z",
+      "description": "HD webcam with built-in microphone",
+      "supplier": "Logitech"
+    },
+    {
+      "id": "PROD-1014",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 39.99,
+      "stock": 75,
+      "status": "active",
+      "createdAt": "2025-10-15T10:00:00Z",
+      "updatedAt": "2025-10-16T10:00:00Z",
+      "description": "Ergonomic wireless mouse with adjustable DPI",
+      "supplier": "Logitech"
+    },
+    {
+      "id": "PROD-1015",
+      "name": "Laptop Stand",
+      "category": "Furniture",
+      "price": 25.99,
+      "stock": 90,
+      "status": "active",
+      "createdAt": "2025-10-20T11:00:00Z",
+      "updatedAt": "2025-10-21T11:00:00Z",
+      "description": "Aluminum laptop stand with cooling vents",
+      "supplier": "BaseLift"
+    },
+    {
+      "id": "PROD-1016",
+      "name": "Smartwatch Series X",
+      "category": "Electronics",
+      "price": 249.99,
+      "stock": 22,
+      "status": "active",
+      "createdAt": "2025-09-05T09:00:00Z",
+      "updatedAt": "2025-09-06T09:00:00Z",
+      "description": "Latest smartwatch with fitness tracking and GPS",
+      "supplier": "Apple"
+    },
+    {
+      "id": "PROD-1017",
+      "name": "Gaming Chair",
+      "category": "Furniture",
+      "price": 329.99,
+      "stock": 12,
+      "status": "active",
+      "createdAt": "2025-09-18T12:00:00Z",
+      "updatedAt": "2025-09-19T12:00:00Z",
+      "description": "Reclining gaming chair with RGB lights",
+      "supplier": "Razer"
+    },
+    {
+      "id": "PROD-1018",
+      "name": "Bluetooth Speakers",
+      "category": "Electronics",
+      "price": 59.99,
+      "stock": 70,
+      "status": "active",
+      "createdAt": "2025-08-12T08:00:00Z",
+      "updatedAt": "2025-08-13T08:00:00Z",
+      "description": "Portable Bluetooth speakers with deep bass",
+      "supplier": "JBL"
+    },
+    {
+      "id": "PROD-1019",
+      "name": "LED Strip Light",
+      "category": "Electronics",
+      "price": 19.99,
+      "stock": 150,
+      "status": "active",
+      "createdAt": "2025-08-15T10:00:00Z",
+      "updatedAt": "2025-08-16T10:00:00Z",
+      "description": "RGB LED strip with remote control",
+      "supplier": "Govee"
+    },
+    {
+      "id": "PROD-1020",
+      "name": "USB-C Docking Station",
+      "category": "Electronics",
+      "price": 129.99,
+      "stock": 18,
+      "status": "active",
+      "createdAt": "2025-09-25T10:00:00Z",
+      "updatedAt": "2025-09-26T10:00:00Z",
+      "description": "Multi-port USB-C docking station with HDMI",
+      "supplier": "Anker"
+    },
+    {
+      "id": "PROD-1021",
+      "name": "Portable SSD 1TB",
+      "category": "Electronics",
+      "price": 109.99,
+      "stock": 33,
+      "status": "active",
+      "createdAt": "2025-08-30T10:00:00Z",
+      "updatedAt": "2025-08-31T10:00:00Z",
+      "description": "High-speed portable SSD for backups",
+      "supplier": "Samsung"
+    },
+    {
+      "id": "PROD-1022",
+      "name": "Graphics Tablet",
+      "category": "Electronics",
+      "price": 159.99,
+      "stock": 14,
+      "status": "active",
+      "createdAt": "2025-09-10T12:00:00Z",
+      "updatedAt": "2025-09-11T12:00:00Z",
+      "description": "Pressure-sensitive drawing tablet",
+      "supplier": "Wacom"
+    },
+    {
+      "id": "PROD-1023",
+      "name": "Laptop Cooling Pad",
+      "category": "Electronics",
+      "price": 29.99,
+      "stock": 85,
+      "status": "active",
+      "createdAt": "2025-10-05T12:00:00Z",
+      "updatedAt": "2025-10-06T12:00:00Z",
+      "description": "Cooling pad with dual fans",
+      "supplier": "Cooler Master"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customerName": "John Doe",
+      "product": "Mechanical Keyboard",
+      "quantity": 2,
+      "total": 179.98,
+      "status": "Pending",
+      "createdAt": "2025-11-20T12:00:00Z"
+    },
+    {
+      "id": "ORD-1002",
+      "customerName": "Sarah Miller",
+      "product": "Wireless Mouse",
+      "quantity": 1,
+      "total": 39.99,
+      "status": "Completed",
+      "createdAt": "2025-11-21T09:15:00Z"
+    },
+    {
+      "id": "ORD-1003",
+      "customerName": "Aiden Brown",
+      "product": "Gaming Headset",
+      "quantity": 1,
+      "total": 89.5,
+      "status": "Pending",
+      "createdAt": "2025-11-22T14:45:00Z"
+    },
+    {
+      "id": "ORD-1004",
+      "customerName": "Emily Johnson",
+      "product": "USB-C Docking Station",
+      "quantity": 1,
+      "total": 129.0,
+      "status": "Cancelled",
+      "createdAt": "2025-11-23T11:20:00Z"
+    },
+    {
+      "id": "ORD-1005",
+      "customerName": "Michael Smith",
+      "product": "Portable SSD 1TB",
+      "quantity": 2,
+      "total": 219.98,
+      "status": "Completed",
+      "createdAt": "2025-11-24T08:30:00Z"
+    },
+    {
+      "id": "ORD-1006",
+      "customerName": "Olivia Davis",
+      "product": "4K Monitor 27 inch",
+      "quantity": 1,
+      "total": 349.99,
+      "status": "Pending",
+      "createdAt": "2025-11-24T15:55:00Z"
+    },
+    {
+      "id": "ORD-1007",
+      "customerName": "James Wilson",
+      "product": "Bluetooth Speakers",
+      "quantity": 1,
+      "total": 59.99,
+      "status": "Completed",
+      "createdAt": "2025-11-25T10:00:00Z"
+    },
+    {
+      "id": "ORD-1008",
+      "customerName": "Sophia Martinez",
+      "product": "Laptop Stand",
+      "quantity": 3,
+      "total": 75.0,
+      "status": "Pending",
+      "createdAt": "2025-11-25T17:10:00Z"
+    },
+    {
+      "id": "ORD-1009",
+      "customerName": "William Anderson",
+      "product": "1080p Webcam",
+      "quantity": 1,
+      "total": 49.99,
+      "status": "Cancelled",
+      "createdAt": "2025-11-26T13:40:00Z"
+    },
+    {
+      "id": "ORD-1010",
+      "customerName": "Emma Thomas",
+      "product": "Ergonomic Chair",
+      "quantity": 1,
+      "total": 199.99,
+      "status": "Completed",
+      "createdAt": "2025-11-26T20:25:00Z"
+    },
+    {
+      "id": "ORD-1011",
+      "customerName": "Liam White",
+      "product": "Mechanical Keyboard",
+      "quantity": 1,
+      "total": 89.99,
+      "status": "Pending",
+      "createdAt": "2025-11-27T09:05:00Z"
+    },
+    {
+      "id": "ORD-1012",
+      "customerName": "Isabella Harris",
+      "product": "Noise Cancelling Earbuds",
+      "quantity": 2,
+      "total": 139.98,
+      "status": "Completed",
+      "createdAt": "2025-11-27T14:30:00Z"
+    },
+    {
+      "id": "ORD-1013",
+      "customerName": "Henry Clark",
+      "product": "Smartwatch Series 8",
+      "quantity": 1,
+      "total": 299.99,
+      "status": "Pending",
+      "createdAt": "2025-11-28T12:45:00Z"
+    },
+    {
+      "id": "ORD-1014",
+      "customerName": "Mia Lewis",
+      "product": "Wireless Charger",
+      "quantity": 2,
+      "total": 49.98,
+      "status": "Cancelled",
+      "createdAt": "2025-11-28T16:00:00Z"
+    },
+    {
+      "id": "ORD-1015",
+      "customerName": "Jack Walker",
+      "product": "Graphics Tablet",
+      "quantity": 1,
+      "total": 159.99,
+      "status": "Completed",
+      "createdAt": "2025-11-29T10:10:00Z"
+    },
+    {
+      "id": "ORD-1016",
+      "customerName": "Charlotte Hall",
+      "product": "Gaming Mousepad XL",
+      "quantity": 2,
+      "total": 39.98,
+      "status": "Pending",
+      "createdAt": "2025-11-29T18:30:00Z"
+    },
+    {
+      "id": "ORD-1017",
+      "customerName": "Lucas Young",
+      "product": "Smart LED Lamp",
+      "quantity": 1,
+      "total": 29.99,
+      "status": "Completed",
+      "createdAt": "2025-11-30T07:55:00Z"
+    },
+    {
+      "id": "ORD-1018",
+      "customerName": "Amelia King",
+      "product": "Portable Projector",
+      "quantity": 1,
+      "total": 219.99,
+      "status": "Pending",
+      "createdAt": "2025-11-30T12:15:00Z"
+    },
+    {
+      "id": "ORD-1019",
+      "customerName": "Noah Scott",
+      "product": "USB-C Cable Pack",
+      "quantity": 3,
+      "total": 24.99,
+      "status": "Completed",
+      "createdAt": "2025-12-01T11:00:00Z"
+    },
+    {
+      "id": "ORD-1020",
+      "customerName": "Harper Green",
+      "product": "Laptop Cooling Pad",
+      "quantity": 1,
+      "total": 34.99,
+      "status": "Pending",
+      "createdAt": "2025-12-01T19:20:00Z"
+    },
+    {
+      "id": "ORD-1021",
+      "customerName": "Daniel Perez",
+      "product": "LED Strip Light",
+      "quantity": 2,
+      "total": 39.98,
+      "status": "Completed",
+      "createdAt": "2025-10-02T10:00:00Z"
+    },
+    {
+      "id": "ORD-1022",
+      "customerName": "Ava Brooks",
+      "product": "Portable SSD 1TB",
+      "quantity": "1",
+      "total": 109.99,
+      "status": "Completed",
+      "createdAt": "2025-10-05T14:30:00Z"
+    },
+    {
+      "id": "ORD-1023",
+      "customerName": "Ethan Lee",
+      "product": "Smartwatch Series X",
+      "quantity": 1,
+      "total": 249.99,
+      "status": "Pending",
+      "createdAt": "2025-10-12T15:00:00Z"
+    },
+    {
+      "id": "ORD-1024",
+      "customerName": "Grace Turner",
+      "product": "Gaming Chair",
+      "quantity": 1,
+      "total": 329.99,
+      "status": "Completed",
+      "createdAt": "2025-09-11T11:00:00Z"
+    },
+    {
+      "id": "ORD-1025",
+      "customerName": "Evelyn Cooper",
+      "product": "Smart Speaker",
+      "quantity": 1,
+      "total": 129.99,
+      "status": "Pending",
+      "createdAt": "2025-09-18T09:15:00Z"
+    },
+    {
+      "id": "ORD-1026",
+      "customerName": "Hunter Rivera",
+      "product": "Desk Lamp",
+      "quantity": 3,
+      "total": 149.97,
+      "status": "Completed",
+      "createdAt": "2025-08-22T13:20:00Z"
+    },
+    {
+      "id": "ORD-1027",
+      "customerName": "Natalie Adams",
+      "product": "Wireless Mouse",
+      "quantity": 1,
+      "total": 39.99,
+      "status": "Completed",
+      "createdAt": "2025-08-27T16:00:00Z"
+    },
+    {
+      "id": "ORD-1028",
+      "customerName": "Owen Carter",
+      "product": "USB-C Docking Station",
+      "quantity": 2,
+      "total": 259.98,
+      "status": "Pending",
+      "createdAt": "2025-10-25T12:10:00Z"
+    },
+    {
+      "id": "ORD-1029",
+      "customerName": "Lily Bennett",
+      "product": "LED Strip Light",
+      "quantity": 4,
+      "total": 79.96,
+      "status": "Completed",
+      "createdAt": "2025-09-30T18:00:00Z"
+    },
+    {
+      "id": "ORD-1030",
+      "customerName": "Samuel Reed",
+      "product": "Gaming Headset",
+      "quantity": 1,
+      "total": 89.50,
+      "status": "Pending",
+      "createdAt": "2025-10-01T09:45:00Z"
+    }
+  ]
+}
