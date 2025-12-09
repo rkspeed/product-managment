@@ -1,15 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import api from './../../api/apiClient'
-
-export interface Order {
-  id: string
-  customerName: string
-  product: string
-  quantity: number
-  total: number
-  status: 'Pending' | 'Shipped' | 'Delivered' | 'Cancelled'
-  createdAt: string
-}
+import type { Order } from "./data/schema";
 
 interface OrdersState {
   data: Order[]

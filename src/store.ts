@@ -1,4 +1,3 @@
-// src/store.ts
 import { configureStore } from '@reduxjs/toolkit'
 import productsReducer from './features/products/productSlice'
 import ordersReducer from './features/orders/ordersSlice'
